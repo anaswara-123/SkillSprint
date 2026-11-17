@@ -1,0 +1,13 @@
+# Manual Test Checklist
+- [ ] `streamlit run app.py` starts successfully.
+- [ ] Dashboard opens.
+- [ ] Role, level and category can be selected.
+- [ ] Job description can be entered.
+- [ ] Live provider generates questions with a valid API key.
+- [ ] Answers can be submitted and evaluated.
+- [ ] Feedback contains four scores, strengths, missing points and suggested answer.
+- [ ] Previous-question navigation works.
+- [ ] Completed session saves to SQLite.
+- [ ] Dashboard and performance history display saved results.
+- [ ] Demo mode is clearly labelled if API key is absent.
+- [ ] No API key or private information is committed.
